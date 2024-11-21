@@ -115,6 +115,9 @@ echo $POETRY_ACTIVE
 - zsh 환경에서 가상 환경이 pyenv 의 가상만 뜨고, poetry 는 안뜨길래 찾아보다가 만들었습니다.
 - 이게 제가 poetry 를 처음 사용해서 그런지 모르겠습니다. 혹시 더 좋은 방법이 있으면 이슈 남겨주세요.
 
+### 이미지
+- pyenv(before)
+![pyenv](./image/pyenv.png)
+- poetry(after)
 ![poetry](./image/poetry.png)
 
-![pyenv](./image/pyenv.png)

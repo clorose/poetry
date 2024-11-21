@@ -1,0 +1,33 @@
+# 설치법
+
+## Windows
+1. (선택) pipx 설치 후 패키지 설치
+   - scoop으로 설치:
+     ```bash
+     scoop install pipx
+     pipx ensurepath
+     ```
+   - 또는 pip로 설치:
+     ```bash
+     py -m pip install --user pipx
+     py -m pipx ensurepath
+     ```
+2. pyenv-win + poetry 설치
+   - pyenv-win: https://github.com/pyenv-win/pyenv-win#installation
+   - poetry: `pip install poetry`
+
+## macOS
+Brew 설치(https://brew.sh/index_ko 로 리다이렉트만 시켜주기.)
+1. (선택) pipx 설치 후 패키지 설치
+   - `brew install pipx`
+   - `pipx ensurepath`
+2. pyenv + poetry 설치
+
+## Linux(Ubuntu)
+1. (선택) pipx 설치 후 패키지 설치
+   - `sudo apt update`
+   - `sudo apt install pipx`
+   - `pipx ensurepath`
+2. pyenv + poetry 설치
+
+---
